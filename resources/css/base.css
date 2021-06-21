@@ -1,0 +1,17 @@
+@layer base {
+  h1 {
+    @apply text-txt-h-l dark:text-txt-h-d text-4xl font-mont;
+  }
+  h2 {
+    @apply text-txt-h-l dark:text-txt-h-d text-2xl font-mont;
+  }
+  h3 {
+    @apply text-txt-h-l dark:text-txt-h-d text-lg font-mont;
+  }
+  h4 {
+    @apply text-txt-h-l dark:text-txt-h-d text-base font-mont;
+  }
+  p {
+    @apply text-txt-p-l dark:text-txt-p-d text-base font-roboto;
+  }
+}

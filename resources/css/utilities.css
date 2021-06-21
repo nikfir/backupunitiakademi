@@ -1,0 +1,64 @@
+@layer utilities {
+  .button {
+    @apply font-roboto text-sm h-10 items-center justify-center px-4 border rounded-md transition duration-300 focus:outline-none disabled:opacity-30;
+  }
+  .plain {
+    @apply bg-plain-l dark:bg-plain-d border border-btn-border-l dark:border-btn-border-d hover:border-btn-border-h-l dark:hover:border-btn-border-h-d text-btn-txt-l dark:text-btn-txt-d;
+  }
+  .accent {
+    @apply border-accent hover:border-accent-h focus:border-btn-border-f bg-accent hover:bg-accent-h text-white;
+  }
+  
+  .primary {
+    @apply border-primary hover:border-primary-h focus:border-btn-border-f bg-primary hover:bg-primary-h text-white;
+  }
+  .info {
+    @apply border-info hover:border-info-h focus:border-btn-border-f bg-info hover:bg-info-h text-white;
+  }
+  .success {
+    @apply border-success hover:border-success-h focus:border-btn-border-f bg-success hover:bg-success-h text-white;
+  }
+  .warning {
+    @apply border-warning hover:border-warning-h focus:border-btn-border-f bg-warning hover:bg-warning-h text-btn-txt-c;
+  }
+  .danger {
+    @apply border-danger hover:border-danger-h focus:border-btn-border-f bg-danger hover:bg-danger-h text-white;
+  }
+  .white {
+    @apply border-white dark:border-white-border-d hover:border-white-h-l focus:border-btn-border-f bg-white hover:bg-white-h-l dark:bg-white-d dark:hover:bg-white-h-d text-btn-txt-c dark:text-white-border-d;
+  }
+  .primary-outline {
+    @apply hover:bg-primary border-primary text-primary hover:text-white;
+  }
+  .info-outline {
+    @apply hover:bg-info border-info text-info hover:text-white;
+  }
+  .success-outline {
+    @apply hover:bg-success border-success text-success hover:text-white;
+  }
+  .warning-outline {
+    @apply hover:bg-warning border-warning text-warning hover:text-btn-txt-c;
+  }
+  .danger-outline {
+    @apply hover:bg-danger border-danger text-danger hover:text-white;
+  }
+  .primary-light {
+    @apply bg-primary-light hover:bg-primary-light-h text-primary border-primary-light hover:border-primary-light-h;
+  }
+  .info-light {
+    @apply bg-info-light hover:bg-info-light-h text-info border-info-light hover:border-info-light-h;
+  }
+  .success-light {
+    @apply bg-success-light hover:bg-success-light-h text-success border-success-light hover:border-success-light-h;
+  }
+  .warning-light {
+    @apply bg-warning-light hover:bg-warning-light-h text-warning border-warning-light hover:border-warning-light-h;
+  }
+  .danger-light {
+    @apply bg-danger-light hover:bg-danger-light-h text-danger border-danger-light hover:border-danger-light-h;
+  }
+  .white-light {
+    @apply bg-white-light hover:bg-white-light-h text-btn-txt-c border-white-light hover:border-white-light-h;
+  }
+
+}
